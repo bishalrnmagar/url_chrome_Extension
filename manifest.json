@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Url Slasher",
+    "version": "1.0",
+    "description": "Simple chrome extension that added / to your url",
+    "action": {
+      "default_title": "Add / to your url"
+    },
+    "background": {
+      "service_worker": "./background.js"
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "scripting"
+    ]
+  }
+  
